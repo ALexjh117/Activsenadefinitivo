@@ -138,10 +138,7 @@ export default function DashBoard() {
         )}
         {contenidoActual === "perfil" && <HomeDash />}
 
-        {/* ✅ NUEVO */}
-        {contenidoActual === "resumenia" && resumenIAData && (
-          <ResumenIA resumen={resumenIAData} />
-        )}
+        
       </main>
 
       {/* <ActivBot irAChatai={() => setContenidoActual("chatai")} /> */}
