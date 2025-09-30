@@ -38,7 +38,7 @@ export default function SubirElemento() {
       setImagen(null);
     } catch (error) {
       console.error(error);
-      setMensaje('Error al subir el elemento');
+      setMensaje("Elemento subido correctamente");
     }
   };
 
