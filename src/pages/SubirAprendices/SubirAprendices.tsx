@@ -38,7 +38,7 @@ const formData = new FormData();
 formData.append(FIELD_NAME, archivo);
 if (jornada) formData.append("jornada", jornada);
       const res = await axios.post(
-        'http://localhost:3002/api/aprendices/subir-excel',
+        "https://render-hhyo.onrender.com/api/aprendices/subir-excel",
         formData,
         {
           // NO establecer Content-Type manualmente: axios + browser pondrán el boundary correcto
