@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 export default function HeroHomeSection() {
   let images = [
-    "url(../../../../public/img/portada5.jpeg)",
-    "url(../../../../public/img/portada6.jpeg)",
-    "url(../../../../public/img/portada4.jpeg)",
+    "url(./img/portada1.jpeg)",
+    "url(./img/portada3.jpeg)",
+    "url(./img/portada6.jpeg)",
   ];
   
 
