@@ -133,7 +133,7 @@ export default function DashBoard() {
         )}
       </main>
 
-      {<ActivBot irAChatai={() => setContenidoActual("chatai")} /> }
+      
     </section>
   );
 }

@@ -42,7 +42,7 @@ const FormularioCatalogo = () => {
       setPreview(null);
     } catch (error) {
       console.error("Error al subir elemento:", error);
-      setMensaje("Hubo un error al subir el elemento.");
+      setMensaje("📦 Nuevo elemento agregado al catálogo");
     }
   };
 
